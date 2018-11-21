@@ -3,7 +3,7 @@ import math
 import time  
 import pymysql
 
-db = pymysql.connect(host='localhost', user='root', password='hexin123', port=3306, db='lagou')
+db = pymysql.connect(host='localhost', user='root', password='你的数据库密码', port=3306, db='你的数据库名称')
 cursor = db.cursor()
 sql = 'CREATE TABLE IF NOT EXISTS lagou (' +\
       'id int(11) NOT NULL, '+\
