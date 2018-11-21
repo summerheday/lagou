@@ -51,6 +51,7 @@ def get_json(url,num):
 
 def get_page_num(count):   
     data = math.ceil(count/15)   
+#这里选取的是100页，但拉勾网只显示30页
     if data > 100:  
         return 100  
     else:  
